@@ -1,0 +1,187 @@
+h1
+{
+	text-align: center;
+}
+
+*
+{
+	font-family: Comic Sans MS;
+
+
+}	
+.principe
+{
+	color:black;
+	text-shadow: 0px 0px 6px white,0px 0px 30px white,0px 0px 12px white,0px 0px 21px white,0px 0px 54px white;
+}
+body,a
+{
+	color: white;
+	
+}
+.easter
+{
+	text-align: center;
+	cursor: pointer;
+	animation: accueil;
+	Animation-delay : 0s;
+  Animation-duration : 5s ;
+
+  
+}
+input
+{
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+input:valid
+{
+	border: 3px solid green;
+}
+input:invalid
+{
+	border:3px solid red;
+}
+
+table
+{
+border-collapse: collapse; 
+
+}
+td
+{
+border: 1px solid blue ;
+border-radius: ;
+}
+.facile,.intermediaire,.difficile,.topniveau
+{
+	text-shadow: 0px 0px 6px brown,0px 0px 30px blue,0px 0px 12px green,0px 0px 21px yellow,0px 0px 54px orange, 0px 0px 16px red;
+	color:black;
+	transform: scale(1.2);
+	transition: transform 400ms ease-out;
+}
+
+body,span
+{
+	text-align: justify;
+	text-shadow: 0px 0px 6px blue,0px 0px 30px blue,0px 0px 12px blue,0px 0px 21px blue,0px 0px 54px blue;
+	
+}
+#background-video {
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+a:hover
+{
+	text-shadow: 0px 0px 6px brown,0px 0px 30px blue,0px 0px 12px green,0px 0px 21px yellow,0px 0px 54px orange, 0px 0px 16px red;
+	color:black;
+}
+
+img
+{
+Animation-name : image ;
+Animation-delay : 0s;
+Animation-duration : 2s ;
+Animation-iteration-count : 1 ;
+}
+@keyframes image {
+	From {
+	Opacity : 0;
+	}
+	To {
+	Opacity: 2;
+	}
+}
+@keyframes texte {
+	From {
+	margin-left:-10000px
+	}
+	To {
+	margin-left:45px
+	}
+}
+
+ul {
+  Animation-name : accueil ;
+  Animation-delay : 0s;
+  Animation-duration : 5s ;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+}
+
+li {
+  Animation-name : accueil ;
+  Animation-delay : 0s;
+  Animation-duration : 5s ;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border: 3px blue outset;
+  border-radius: 10px;
+  text-decoration: underline;
+  text-align: center;
+  Transform: scale(1.1);
+  transition: transform 400ms ease-in-out;
+  
+}
+@keyframes accueil {
+	From {
+	Opacity : 0;
+	transform: translateX(-1000px);
+	}
+	To {
+	Opacity: 1;
+	transform: translateX(0px);
+	}
+}
+
+
+
+.form{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+  margin-top: 20px;
+  background: #f5f5f5;
+}
+.co{
+	background-color: transparent;
+	border: 2px outset #DFF2FF ;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+.formulaire
+{
+	height: 320px;
+	width: 320px;
+	margin-top: 300px;
+	margin-bottom: 300px;
+	align-content: center;
+	background: #ffffff;
+	align-items: center;
+	margin-left: 40%;
+	box-shadow: 0px 0px 20px 10px grey;
+	border-radius: 100%;
+
+
+}
